@@ -1,0 +1,92 @@
+pt-BR:
+  rooms:
+    index:
+      title: 'Quartos Disponíveis' 
+      destroy: 'Remover'
+      edit: 'Editar'    
+    edit:
+      title: Editar
+    destroy:
+      title: Excluir
+    room:
+      edit: 'Editar'
+      destroy: 'Remover'
+      owner_html: '&mdash; %{owner} (%{when})'
+    review:
+      login_to_review: Faça o login para avaliar quartos
+  users:
+    confirmations:
+      success: Email Confirmado com sucesso, obrigado!
+    new:
+      title: Cadastro
+    edit:
+      title: Editar Perfil
+    show:
+      title: "Perfil: %{user_name}"
+      edit: 'Editar Perfil'
+      location: 'Localização: %{location}'
+      bio: "Bio: %{bio}"
+  user_sessions:
+    new:
+      title: Login
+      signup: Cadastre-se
+  links:
+    back: Voltar
+    edit: Editar
+    home: Página Inicial
+  signup_mailer:
+    confirm_email:
+      subject: 'Colcho.net - Confirme seu email'
+      title: 'Seja bem vindo ao Colcho.net'
+      body: |
+        Seja bem vindo ao Colcho.net, %{full_name}.
+        O Colcho.net é o lugar ideal para você alugar aquele quarto
+        Sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+      confirm_link_html: 'Para você começar a usar o site, acesse o link: %{link}'
+      thanks_html: 'Obrigado por se cadastrar no %{link}'
+  layout:
+    rooms: Quartos
+    signup: Cadastro
+    signin: Login
+    my_profile: Meu Perfil
+    signout: Logout
+  flash:
+    alert:
+      needs_login: "Você precisa estar logado para continuar"
+    notice:
+      signed_in: 'Login efetuado com sucesso!'
+      signed_out: 'Logout efetuado com sucesso. Até logo!'
+      already_logged_in: "Você já está logado."
+      room_created: 'Quarto criado com sucesso'
+      room_destroyed: 'Quarto excluido com sucesso'
+  dialogs:
+      destroy: 'Deseja excluir Este quarto ?'
+  general:
+    form_error: Há erro(s) no formulário, por favor verifique.
+  activerecord:
+    models:
+      user: Usuário
+    attributes:
+      user:
+        bio: Biografia
+        email: Email
+        full_name: Nome Completo
+        location: Localização
+        password: Senha
+        password_confirmation: Confirme sua senha
+      room:
+        description: Descrição
+        location: Localização
+        title: Título
+  activemodel:
+    attributes:
+      user_session:
+        email: Email
+        password: Senha
+    errors:
+      messages:
+        invalid_login: Usuário ou senha inválidos
+  helpers:
+    submit:
+      user_session:
+        create: Entrar

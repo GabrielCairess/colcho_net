@@ -1,0 +1,6 @@
+<h1><%= t('.title') %></h1>
+
+<%= render 'form', user: @user %>
+
+<%= link_to t('links.edit'), edit_user_path(@user) %>
+<%= link_to t('links.home'), root_path %>
