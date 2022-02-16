@@ -1,9 +1,19 @@
 pt-BR:
+  views:
+    pagination:
+      first: "&laquo; Primeira"
+      last: "Última &raquo;"
+      previous: "&lsaquo; Anterior"
+      next: "Próxima $rsaquo;"
+      truncate: "..."
   rooms:
     index:
       title: 'Quartos Disponíveis' 
       destroy: 'Remover'
-      edit: 'Editar'    
+      edit: 'Editar'
+      search_results: 'Resultados da busca'
+    search:
+      search_for: 'Buscar por..'  
     edit:
       title: Editar
     destroy:
@@ -14,6 +24,9 @@ pt-BR:
       owner_html: '&mdash; %{owner} (%{when})'
     review:
       login_to_review: Faça o login para avaliar quartos
+      stars:
+        one: '(1 avaliação)'
+        other: '(%{count} avaliações)'
   users:
     confirmations:
       success: Email Confirmado com sucesso, obrigado!
@@ -59,6 +72,7 @@ pt-BR:
       already_logged_in: "Você já está logado."
       room_created: 'Quarto criado com sucesso'
       room_destroyed: 'Quarto excluido com sucesso'
+      room_updated: 'Quarto atualizado com sucesso'
   dialogs:
       destroy: 'Deseja excluir Este quarto ?'
   general:
